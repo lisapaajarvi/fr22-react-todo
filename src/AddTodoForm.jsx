@@ -22,7 +22,7 @@ function AddTodoForm(props) {
         <div>
             <form onSubmit={handleSubmit}>
                 <h2>Vad ska du göra?</h2>
-                <input type="text" value={inputNewTodo} onChange={handleChange}/>
+                <input type="text" value={inputNewTodo} required onChange={handleChange}/>
                 <button type="submit">Spara</button>
             </form>
         </div>
